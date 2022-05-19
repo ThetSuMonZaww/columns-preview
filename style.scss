@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@300;400;500&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Padauk:wght@400;700&display=swap');
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "node_modules/animate.css/animate.min.css";
+
+$font-family-inherit: 'Big Shoulders Display', cursive;
+$font-family: 'Lexend Deca', sans-serif;
+
+.body-bg{
+  background-color: #f2f2f2;
+}
+
+.sedan{
+  background-color: #e28525;
+  color: #fde9cd;
+}
+.btn-sedan {
+  color: #e18527;
+  background-color: #f3f2f1;
+  width: 200px;
+  height: 70px;
+}
+.btn-sedan:hover{
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.suvs{
+  background-color: #016972;
+  color: #fde9cd;
+}
+.btn-suvs {
+  color: #628b8d;
+  background-color: #f3f2f1;
+  width: 200px;
+  height: 70px;
+}
+.btn-suvs:hover{
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+
+.luxury{
+  background-color: #00403f;
+  color: #fde9cd;
+}
+.btn-luxury {
+  color: #2d4d48;
+  background-color: #f2f2f2;
+  width: 200px;
+  height: 70px;
+}
+.btn-luxury:hover{
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+p{
+  font-size: 17px;
+  line-height: 30px;
+}
+
+
+
